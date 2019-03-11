@@ -29,7 +29,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/metrics"
 	_ "github.com/coredns/coredns/plugin/nsid"
 	_ "github.com/coredns/coredns/plugin/pprof"
-	_ "github.com/coredns/coredns/plugin/proxy"
+	_ "github.com/coredns/coredns/plugin/ready"
 	_ "github.com/coredns/coredns/plugin/reload"
 	_ "github.com/coredns/coredns/plugin/rewrite"
 	_ "github.com/coredns/coredns/plugin/root"
@@ -39,6 +39,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/tls"
 	_ "github.com/coredns/coredns/plugin/trace"
 	_ "github.com/coredns/coredns/plugin/whoami"
+	_ "github.com/coredns/proxy"
 	_ "github.com/mholt/caddy/onevent"
 	_ "github.com/niktrix/interceptor"
 )
