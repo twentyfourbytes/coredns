@@ -5,11 +5,10 @@ ORG=niktrix
 name=tfb-coredns
 VERSION=$(git rev-parse --short HEAD)
 
+make
+
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ROOT_DIR=$(cd ${SCRIPT_DIR}/..; pwd)
-
-ls
-pwd
 
 dockerfile=${ROOT_DIR}/Dockerfile
 cmd="build -t ${ORG}/${name}:${VERSION} -f ${dockerfile} "
