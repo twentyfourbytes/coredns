@@ -15,7 +15,7 @@ git:
 
 branches:
   only:
-  - master
+  - twentyfourbytes
 
 env:
   - TEST_TYPE=coverage
