@@ -2,7 +2,7 @@
 set -o errexit
 set -o pipefail
 ORG=twentyfourbytes
-name=dnsproxy
+name=interceptor
 VERSION=$(git rev-parse --short HEAD)
 make
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
