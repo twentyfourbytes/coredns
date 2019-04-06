@@ -18,8 +18,6 @@ branches:
   - twentyfourbytes
 
 env:
-  - TEST_TYPE=coverage
-  - TEST_TYPE=integration
   - TEST_TYPE=core
   - TEST_TYPE=plugin
 
