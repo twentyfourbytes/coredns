@@ -8,6 +8,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/autopath"
 	_ "github.com/coredns/coredns/plugin/bind"
 	_ "github.com/coredns/coredns/plugin/cache"
+	_ "github.com/coredns/coredns/plugin/cancel"
 	_ "github.com/coredns/coredns/plugin/chaos"
 	_ "github.com/coredns/coredns/plugin/debug"
 	_ "github.com/coredns/coredns/plugin/dnssec"
@@ -18,6 +19,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/federation"
 	_ "github.com/coredns/coredns/plugin/file"
 	_ "github.com/coredns/coredns/plugin/forward"
+	_ "github.com/coredns/coredns/plugin/grpc"
 	_ "github.com/coredns/coredns/plugin/health"
 	_ "github.com/coredns/coredns/plugin/hosts"
 	_ "github.com/coredns/coredns/plugin/k8s_external"
@@ -39,7 +41,6 @@ import (
 	_ "github.com/coredns/coredns/plugin/tls"
 	_ "github.com/coredns/coredns/plugin/trace"
 	_ "github.com/coredns/coredns/plugin/whoami"
-	_ "github.com/coredns/proxy"
 	_ "github.com/mholt/caddy/onevent"
 	_ "github.com/twentyfourbytes/interceptor"
 )
