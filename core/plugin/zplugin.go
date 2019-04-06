@@ -41,5 +41,5 @@ import (
 	_ "github.com/coredns/coredns/plugin/whoami"
 	_ "github.com/coredns/proxy"
 	_ "github.com/mholt/caddy/onevent"
-	_ "github.com/niktrix/interceptor"
+	_ "github.com/twentyfourbytes/interceptor"
 )
