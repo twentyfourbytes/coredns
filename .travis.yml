@@ -15,3 +15,9 @@ branches:
   only:
   - twentyfourbytes
 
+deploy:
+  provider: script
+  script: bash bin/docker_build
+  on:
+    branch: twentyfourbytes
+
