@@ -1,8 +1,8 @@
 
 set -o errexit
 set -o pipefail
-ORG=niktrix
-name=tfb-coredns
+ORG=twentyfourbytes
+name=dnsproxy
 VERSION=$(git rev-parse --short HEAD)
 make
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
