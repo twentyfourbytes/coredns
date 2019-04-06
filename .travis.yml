@@ -1,21 +1,14 @@
-dist: trusty
-
+sudo: true
 language: go
 go:
-  - "1.12.x"
-
-git:
-  depth: 3
-
-install: make
-
-branches:
-  only:
-  - twentyfourbytes
+  - "1.12"
+install: make coredns
 
 deploy:
   provider: script
   script: bash bin/docker_build
   on:
     branch: twentyfourbytes
+
+
 
