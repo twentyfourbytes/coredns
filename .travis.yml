@@ -9,7 +9,7 @@ go_import_path: github.com/coredns/coredns
 git:
   depth: 3
 
-install: GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o /go/bin/coredns
+install: make
 
 branches:
   only:
